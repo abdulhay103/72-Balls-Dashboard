@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html ⚡ lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <title>Dashboard</title>
+    <script src="https://kit.fontawesome.com/a6b14e980f.js"></script>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/gijgo.min.css">
+    <link rel="stylesheet" href="assets/css/select.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <section class="bodyInr">
+        <div class="side_menu" id="mySidenav">
+            <div class="side_logo">
+                <a class="logo" href="#">
+                    <img src="assets/img/logo.png" alt="">
+                </a>
+            </div>
+            <div class="overflow">
+                <div class="admin_profile">
+                    <div class="overlay">
+                        <div class="admin_photo">
+                            <div class="photo">
+                                <img src="assets/img/profileImage.png" alt="admin photo">
+                            </div>
+                        </div>
+                        <div class="admin_name">
+                            <h4>Maria Jaime</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="side">
+                    <div class="single-menu">
+                        <a href=""><i class="fas fa-home"></i><span>Dashboard</span></a>
+                    </div>
+                    <div class="single-menu">
+                        <a href=""><i class="fas fa-bars"></i><span>72 Ball Tests Complete</span></a>
+                    </div>
+                    <div class="single-menu">
+                        <a href=""><i class="fas fa-plus-square"></i><span>Add a 72 Ball Test</span></a>
+                    </div>
+                    <div class="single-menu">
+                        <h5><i class="fas fa-book-reader"></i>
+                            <span>72 Ball Test Options</span>
+                            <i class="fas fa-angle-down icon"></i>
+                        </h5>
+                        <ul>
+                            <li><a href="#">Data</a></li>
+                            <li><a href="#">Result</a></li>
+                            <li><a href="#">Edit</a></li>
+                            <li><a href="#">Compare</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-body">
+            <header class="header">
+                <div class="togglarBtn">&#9776;</div>
+                <div class="header_rght">
+                    <ul>
+                        <li class="ddd">
+                            <a href=""><i class="fas fa-bell"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <div class="top_photo">
+                                <img src="assets/img/profileImage.png" alt="admin photo">
+                            </div>
+                        </li>
+                        <li><a href="">Maria Jaime</a></li>
+                    </ul>
+                </div>
+            </header>
+
+
+            <div class="container">
+                <div class="col-md-12 text-right">
+                    <a class="btn_back" href=""><i class="fas fa-angle-double-left"></i><span>Back</span></a>
+                </div>
+            </div>
+
+            <div class="body-area">
+                <div class="form Hd">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 ">
+                                <div class="heading-posotion">
+                                    <h2>72 BALL TEST - RESULTS</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-50">
+                            <div class="col-12">
+                                <div class="a-box-area bo-bt">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <h6>72 Ball Test - number 1</h6>
+                                            <div class="box bor">
+                                                <label class="CM">DATE</label>
+                                                <input id="datepicker" placeholder="10/02/2019" />
+                                            </div>
+                                            <div class="down_item">
+                                                <h3><span>Handicap: </span>33</h3>
+                                                <h3><span>TEST TYPE: </span>72 Ball Test</h3>
+                                                <h3><span>Test type: </span>Full Distance Test</h3>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <h6>72 Ball Test - number 2</h6>
+                                            <div class="box bor">
+                                                <label class="CM">DATE</label>
+                                                <input id="datepicker1" placeholder="15/02/2019" />
+                                            </div>
+                                            <div class="down_item">
+                                                <h3><span>Handicap: </span>33</h3>
+                                                <h3><span>TEST TYPE: </span>72 Ball Test</h3>
+                                                <h3><span>Test type: </span>Full Distance Test</h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="box">
+                                                <label class="CM">Advanced:</label>
+                                                <select class="wide">
+                                                    <option data-display="Yes">Nothing</option>
+                                                    <option value="1">Some option</option>
+                                                    <option value="2">Another option</option>
+                                                    <option value="3" disabled>A disabled option</option>
+                                                    <option value="4">Potato</option>
+                                                </select>
+                                            </div>
+                                            <div class="box">
+                                                <label class="CM">DISTANCE UNIT:</label>
+                                                <select class="wide">
+                                                    <option data-display="Metric">Nothing</option>
+                                                    <option value="1">Some option</option>
+                                                    <option value="2">Another option</option>
+                                                    <option value="3" disabled>A disabled option</option>
+                                                    <option value="4">Potato</option>
+                                                </select>
+                                            </div>
+                                            <div class="box">
+                                                <label class="CM">Putting Distance UNIT:</label>
+                                                <select class="wide">
+                                                    <option data-display="Metric">Nothing</option>
+                                                    <option value="1">Some option</option>
+                                                    <option value="2">Another option</option>
+                                                    <option value="3" disabled>A disabled option</option>
+                                                    <option value="4">Potato</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <section class="chart-heading">
+                            <div class="title-warp compear-page average-page">
+                                <div class="title-icon">
+                                    <img src="./assets/img/common/icon/1.png" alt="">
+                                </div>
+                                <div class="two-div">
+                                    <div class="div-wrap no-margin">
+                                        <div class="cart-title c3f9 ">
+                                            <h3>Driving
+                                                Distance</h3>
+                                        </div>
+                                        <div class="chart-warp">
+                                            <div class="text">
+                                                <p class="left">10/02/2019</p>
+                                                <p class="right">15/02/2019</p>
+                                            </div>
+                                            <div class="compear-chart def-762">
+                                                <div class="chart-horigontal-brd"></div>
+                                                <div class="chart-bar left"></div>
+                                                <div class="chart-bar right"></div>
+                                                <ul>
+                                                    <li>
+                                                        <label for="">350m</label>
+                                                        <span class="hr-midel"></span>
+                                                    </li>
+                                                    <li>
+                                                        <label for="">300m</label>
+
+                                                        <span class="hr-midel"></span>
+                                                    </li>
+                                                    <li>
+                                                        <label for="">250m</label>
+
+                                                        <span class="hr-midel"></span>
+                                                    </li>
+                                                    <li>
+                                                        <label for="">200m</label>
+
+                                                        <span class="hr-midel"></span>
+                                                    </li>
+                                                    <li>
+                                                        <label for="">150m</label>
+
+                                                        <span class="hr-midel"></span>
+                                                    </li>
+                                                    <li>
+                                                        <label for="">100m</label>
+
+                                                        <span class="hr-midel"></span>
+                                                    </li>
+                                                    <li>
+                                                        <label for="">50m</label>
+
+                                                        <span class="hr-midel"></span>
+                                                    </li>
+                                                    <li>
+                                                        <label for="">0m</label>
+
+                                                        <span class="hr-midel"></span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="div-wrap">
+                                        <div class="cart-title c3f9">
+                                            <h3>Driving
+                                                Accuracy</h3>
+                                        </div>
+                                        <div class="chart-warp">
+                                            <div class="text">
+                                                <p class="left">10/02/2019</p>
+                                                <p class="right">15/02/2019</p>
+                                            </div>
+                                            <div class="compear-chart def-762">
+                                                <div class="chart-horigontal-brd"></div>
+                                                <div class="chart-bar left"></div>
+                                                <div class="chart-bar right"></div>
+                                                <ul>
+                                                    <li>
+                                                        <label for="">350m</label>
+                                                        <span class="hr-midel"></span>
+                                                    </li>
+                                                    <li>
+                                                        <label for="">300m</label>
+
+                                                        <span class="hr-midel"></span>
+                                                    </li>
+                                                    <li>
+                                                        <label for="">250m</label>
+
+                                                        <span class="hr-midel"></span>
+                                                    </li>
+                                                    <li>
+                                                        <label for="">200m</label>
+
+                                                        <span class="hr-midel"></span>
+                                                    </li>
+                                                    <li>
+                                                        <label for="">150m</label>
+
+                                                        <span class="hr-midel"></span>
+                                                    </li>
+                                                    <li>
+                                                        <label for="">100m</label>
+
+                                                        <span class="hr-midel"></span>
+                                                    </li>
+                                                    <li>
+                                                        <label for="">50m</label>
+
+                                                        <span class="hr-midel"></span>
+                                                    </li>
+                                                    <li>
+                                                        <label for="">0m</label>
+
+                                                        <span class="hr-midel"></span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="title-warp compear-page average-page">
+                                <div class="title-icon">
+                                    <img src="./assets/img/common/icon/2.png" alt="">
+                                </div>
+                                <div class="div-wrap">
+                                    <div class="cart-title a6e1ff">
+                                        <h3>Approach Shots
+                                            Proximity</h3>
+                                    </div>
+                                    <div class="chart-warp">
+                                        <div class="text">
+                                            <p class="left">10/02/2019</p>
+                                            <p class="right">15/02/2019</p>
+                                        </div>
+                                        <div class="compear-chart">
+                                            <div class="chart-horigontal-brd"></div>
+                                            <div class="chart-bar left"></div>
+                                            <div class="chart-bar right"></div>
+                                            <ul>
+                                                <li>
+                                                    <label for="">350m</label>
+                                                    <span class="hr-midel"></span>
+                                                </li>
+                                                <li>
+                                                    <label for="">300m</label>
+
+                                                    <span class="hr-midel"></span>
+                                                </li>
+                                                <li>
+                                                    <label for="">250m</label>
+
+                                                    <span class="hr-midel"></span>
+                                                </li>
+                                                <li>
+                                                    <label for="">200m</label>
+
+                                                    <span class="hr-midel"></span>
+                                                </li>
+                                                <li>
+                                                    <label for="">150m</label>
+
+                                                    <span class="hr-midel"></span>
+                                                </li>
+                                                <li>
+                                                    <label for="">100m</label>
+
+                                                    <span class="hr-midel"></span>
+                                                </li>
+                                                <li>
+                                                    <label for="">50m</label>
+
+                                                    <span class="hr-midel"></span>
+                                                </li>
+                                                <li>
+                                                    <label for="">0m</label>
+
+                                                    <span class="hr-midel"></span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="title-warp compear-page average-page">
+                                <div class="title-icon">
+                                    <img src="./assets/img/common/icon/3.png" alt="">
+                                </div>
+                                <div class="div-wrap">
+                                    <div class="cart-title a6e1ff">
+                                        <h3>Pitching
+                                            Proximity</h3>
+                                    </div>
+                                    <div class="chart-warp">
+                                        <div class="text">
+                                            <p class="left">10/02/2019</p>
+                                            <p class="right">15/02/2019</p>
+                                        </div>
+                                        <div class="compear-chart def-762">
+                                            <div class="chart-horigontal-brd"></div>
+                                            <div class="chart-bar left"></div>
+                                            <div class="chart-bar right"></div>
+                                            <ul>
+                                                <li>
+                                                    <label for="">350m</label>
+                                                    <span class="hr-midel"></span>
+                                                </li>
+                                                <li>
+                                                    <label for="">300m</label>
+
+                                                    <span class="hr-midel"></span>
+                                                </li>
+                                                <li>
+                                                    <label for="">250m</label>
+
+                                                    <span class="hr-midel"></span>
+                                                </li>
+                                                <li>
+                                                    <label for="">200m</label>
+
+                                                    <span class="hr-midel"></span>
+                                                </li>
+                                                <li>
+                                                    <label for="">150m</label>
+
+                                                    <span class="hr-midel"></span>
+                                                </li>
+                                                <li>
+                                                    <label for="">100m</label>
+
+                                                    <span class="hr-midel"></span>
+                                                </li>
+                                                <li>
+                                                    <label for="">50m</label>
+
+                                                    <span class="hr-midel"></span>
+                                                </li>
+                                                <li>
+                                                    <label for="">0m</label>
+
+                                                    <span class="hr-midel"></span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="title-warp compear-page average-page">
+                                <div class="title-icon">
+                                    <img src="./assets/img/common/icon/4.png" alt="">
+                                </div>
+                                <div class="div-wrap">
+                                    <div class="cart-title c5d9f1">
+                                        <h3>Short Game
+                                            Proximity</h3>
+                                    </div>
+                                    <div class="chart-warp">
+                                        <div class="text">
+                                            <p class="left">10/02/2019</p>
+                                            <p class="right">15/02/2019</p>
+                                        </div>
+                                        <div class="compear-chart">
+                                            <div class="chart-horigontal-brd"></div>
+                                            <div class="chart-bar left"></div>
+                                            <div class="chart-bar right"></div>
+                                            <ul>
+                                                <li>
+                                                    <label for="">350m</label>
+                                                    <span class="hr-midel"></span>
+                                                </li>
+                                                <li>
+                                                    <label for="">300m</label>
+
+                                                    <span class="hr-midel"></span>
+                                                </li>
+                                                <li>
+                                                    <label for="">250m</label>
+
+                                                    <span class="hr-midel"></span>
+                                                </li>
+                                                <li>
+                                                    <label for="">200m</label>
+
+                                                    <span class="hr-midel"></span>
+                                                </li>
+                                                <li>
+                                                    <label for="">150m</label>
+
+                                                    <span class="hr-midel"></span>
+                                                </li>
+                                                <li>
+                                                    <label for="">100m</label>
+
+                                                    <span class="hr-midel"></span>
+                                                </li>
+                                                <li>
+                                                    <label for="">50m</label>
+
+                                                    <span class="hr-midel"></span>
+                                                </li>
+                                                <li>
+                                                    <label for="">0m</label>
+
+                                                    <span class="hr-midel"></span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="title-warp space compear-page average-page def576">
+                                <div class="title-icon">
+                                    <img src="./assets/img/common/icon/5.png" alt="">
+                                </div>
+                                <div class="two-div">
+                                    <div class="div-wrap no-margin">
+                                        <div class="cart-title d9f0ff ">
+                                            <h3>Lag Putting
+                                                Proximity</h3>
+                                        </div>
+                                        <div class="chart-warp">
+                                            <div class="text">
+                                                <p class="left">10/02/2019</p>
+                                                <p class="right">15/02/2019</p>
+                                            </div>
+                                            <div class="compear-chart">
+                                                <div class="chart-horigontal-brd"></div>
+                                                <div class="chart-bar left"></div>
+                                                <div class="chart-bar right"></div>
+                                                <ul>
+                                                    <li>
+                                                        <label for="">350m</label>
+                                                        <span class="hr-midel"></span>
+                                                    </li>
+                                                    <li>
+                                                        <label for="">300m</label>
+
+                                                        <span class="hr-midel"></span>
+                                                    </li>
+                                                    <li>
+                                                        <label for="">250m</label>
+
+                                                        <span class="hr-midel"></span>
+                                                    </li>
+                                                    <li>
+                                                        <label for="">200m</label>
+
+                                                        <span class="hr-midel"></span>
+                                                    </li>
+                                                    <li>
+                                                        <label for="">150m</label>
+
+                                                        <span class="hr-midel"></span>
+                                                    </li>
+                                                    <li>
+                                                        <label for="">100m</label>
+
+                                                        <span class="hr-midel"></span>
+                                                    </li>
+                                                    <li>
+                                                        <label for="">50m</label>
+
+                                                        <span class="hr-midel"></span>
+                                                    </li>
+                                                    <li>
+                                                        <label for="">0m</label>
+
+                                                        <span class="hr-midel"></span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="div-wrap">
+                                        <div class="cart-title d9f0ff">
+                                            <h3>Make Putt
+                                                Percentage</h3>
+                                        </div>
+                                        <div class="chart-warp">
+                                            <div class="text">
+                                                <p class="left">10/02/2019</p>
+                                                <p class="right">15/02/2019</p>
+                                            </div>
+                                            <div class="compear-chart">
+                                                <div class="chart-horigontal-brd"></div>
+                                                <div class="chart-bar left"></div>
+                                                <div class="chart-bar right"></div>
+                                                <ul>
+                                                    <li>
+                                                        <label for="">350m</label>
+                                                        <span class="hr-midel"></span>
+                                                    </li>
+                                                    <li>
+                                                        <label for="">300m</label>
+
+                                                        <span class="hr-midel"></span>
+                                                    </li>
+                                                    <li>
+                                                        <label for="">250m</label>
+
+                                                        <span class="hr-midel"></span>
+                                                    </li>
+                                                    <li>
+                                                        <label for="">200m</label>
+
+                                                        <span class="hr-midel"></span>
+                                                    </li>
+                                                    <li>
+                                                        <label for="">150m</label>
+
+                                                        <span class="hr-midel"></span>
+                                                    </li>
+                                                    <li>
+                                                        <label for="">100m</label>
+                                                        <span class="hr-midel"></span>
+                                                    </li>
+                                                    <li>
+                                                        <label for="">50m</label>
+                                                        <span class="hr-midel"></span>
+                                                    </li>
+                                                    <li>
+                                                        <label for="">0m</label>
+                                                        <span class="hr-midel"></span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="footer">
+                    <p>Copyright &copy; 2019 All rights reserved.</p>
+                    <p>YourGolf Performance</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/nice-select.min.js"></script>
+    <script src="assets/js/gijgo.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('select:not(.ignore)').niceSelect();
+        });
+
+    </script>
+    <script>
+        $('#datepicker').datepicker();
+
+    </script>
+    <script>
+        $('#datepicker1').datepicker();
+
+    </script>
+    <script>
+        $(".togglarBtn").click(function() {
+            $('body').toggleClass("highlight");
+        });
+
+    </script>
+
+</body>
+
+</html>

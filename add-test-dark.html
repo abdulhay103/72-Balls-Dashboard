@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html ⚡ lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <title>Dashboard</title>
+    <script src="https://kit.fontawesome.com/a6b14e980f.js"></script>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/gijgo.min.css">
+    <link rel="stylesheet" href="assets/css/select.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <section class="bodyInr">
+        <div class="side_menu" id="mySidenav">
+            <div class="side_logo">
+                <a class="logo" href="#">
+                    <img src="assets/img/logo.png" alt="">
+                </a>
+            </div>
+            <div class="overflow">
+                <div class="admin_profile">
+                    <div class="overlay">
+                        <div class="admin_photo">
+                            <div class="photo">
+                                <img src="assets/img/profileImage.png" alt="admin photo">
+                            </div>
+                        </div>
+                        <div class="admin_name">
+                            <h4>Maria Jaime</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="side">
+                    <div class="single-menu">
+                        <a href=""><i class="fas fa-home"></i><span>Dashboard</span></a>
+                    </div>
+                    <div class="single-menu">
+                        <a href=""><i class="fas fa-bars"></i><span>72 Ball Tests Complete</span></a>
+                    </div>
+                    <div class="single-menu">
+                        <a href=""><i class="fas fa-plus-square"></i><span>Add a 72 Ball Test</span></a>
+                    </div>
+                    <div class="single-menu">
+                        <h5><i class="fas fa-book-reader"></i>
+                            <span>72 Ball Test Options</span>
+                            <i class="fas fa-angle-down icon"></i>
+                        </h5>
+                        <ul>
+                            <li><a href="#">Data</a></li>
+                            <li><a href="#">Result</a></li>
+                            <li><a href="#">Edit</a></li>
+                            <li><a href="#">Compare</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-body">
+            <header class="header">
+                <div class="togglarBtn">&#9776;</div>
+                <div class="header_rght">
+                    <ul>
+                        <li class="ddd">
+                            <a href=""><i class="fas fa-bell"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <div class="top_photo">
+                                <img src="assets/img/profileImage.png" alt="admin photo">
+                            </div>
+                        </li>
+                        <li><a href="">Maria Jaime</a></li>
+                    </ul>
+                </div>
+            </header>
+
+
+            <div class="container">
+                <div class="col-md-12 text-right">
+                    <a class="btn_back" href=""><i class="fas fa-angle-double-left"></i><span>Back</span></a>
+                </div>
+            </div>
+
+            <div class="body-area">
+                <div class="form">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 ">
+                                <div class="heading-posotion">
+                                    <h2>ADD A 72 BALL TEST</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 ">
+                                <div class="heading-ta">
+                                    <h3>Your 72 Ball Test-number1</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="box">
+                                    <label class="cmn">TEST CHOOSE</label>
+                                    <select class="wide">
+                                        <option class="my" data-display="TEST Number">Nothing</option>
+                                        <option value="1">Some option</option>
+                                        <option value="2">Another option</option>
+                                        <option value="3" disabled>A disabled option</option>
+                                        <option value="4">Potato</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="box">
+                                    <label class="cmn">DATE</label>
+                                    <input id="datepicker" placeholder="Choose Date" />
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="box">
+                                    <label class="cmn">HANDICAP</label>
+                                    <select class="wide">
+                                        <option data-display="Add Handicap">Nothing</option>
+                                        <option value="1">Some option</option>
+                                        <option value="2">Another option</option>
+                                        <option value="3" disabled>A disabled option</option>
+                                        <option value="4">Potato</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="box">
+                                    <label class="cmn">TEST TYPE</label>
+                                    <select class="wide">
+                                        <option data-display="Full Distance Test">Nothing</option>
+                                        <option value="1">Some option</option>
+                                        <option value="2">Another option</option>
+                                        <option value="3" disabled>A disabled option</option>
+                                        <option value="4">Potato</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="box">
+                                    <label class="cmn">DISTANCE UNIT</label>
+                                    <select class="wide">
+                                        <option data-display="Metric">Nothing</option>
+                                        <option value="1">Some option</option>
+                                        <option value="2">Another option</option>
+                                        <option value="3" disabled>A disabled option</option>
+                                        <option value="4">Potato</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="box">
+                                    <label class="cmn">ADVANCED</label>
+                                    <select class="wide">
+                                        <option data-display="Yes">Nothing</option>
+                                        <option value="1">Some option</option>
+                                        <option value="2">Another option</option>
+                                        <option value="3" disabled>A disabled option</option>
+                                        <option value="4">Potato</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="table_settion">
+                    <table class="table table-bordered text-center">
+                        <thead>
+                            <tr>
+                                <th scope="col" colspan="2">SHOT</th>
+                                <th scope="col">QTI</th>
+                                <th scope="col">INSTRUCTIONS</th>
+                                <th scope="col">1</th>
+                                <th scope="col">2</th>
+                                <th scope="col">3</th>
+                                <th scope="col">4</th>
+                                <th scope="col">5</th>
+                                <th scope="col">6</th>
+                                <th scope="col">7</th>
+                                <th scope="col">8</th>
+                                <th scope="col">9</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" rowspan="2" colspan="2">Tee Shots - Driver</th>
+                                <td rowspan="2">6</td>
+                                <td rowspan="2">Maximum distance.<br>Driver (e.g. 230m+)</td>
+                                <td>
+                                    <p>(1 R)</p> <br>
+                                    <img src="assets/img/radiobtnblack.png" alt="radiobtnblack">
+                                </td>
+                                <td>
+                                    <p>(1 L)</p> <br>
+                                    <img src="assets/img/radiobtnblack.png" alt="radiobtnblack">
+                                </td>
+                                <td>
+                                    <p>(1 R)</p> <br>
+                                    <img src="assets/img/radiobtnblack.png" alt="radiobtnblack">
+                                </td>
+                                <td>
+                                    <p>(1 R)</p> <br>
+                                    <img src="assets/img/radiobtnblack.png" alt="radiobtnblack">
+                                </td>
+                                <td>
+                                    <p>(1 L)</p> <br>
+                                    <img src="assets/img/radiobtnblack.png" alt="radiobtnblack">
+                                </td>
+                                <td>
+                                    <p>(1 R)</p> <br>
+                                    <img src="assets/img/radiobtnblack.png" alt="radiobtnblack">
+                                </td>
+                                <td>
+                                    <p>(1 L)</p> <br>
+                                    <img src="assets/img/radiobtnblack.png" alt="radiobtnblack">
+                                </td>
+                                <td>
+                                    <p>(1 L)</p> <br>
+                                    <img src="assets/img/radiobtnblack.png" alt="radiobtnblack">
+                                </td>
+                                <td>
+                                    <p>(1 R)</p> <br>
+                                    <img src="assets/img/radiobtnblack.png" alt="radiobtnblack">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>(1 R)</p>
+                                    <img src="assets/img/radiobtn-grey.png" alt="radiobtn-grey">
+                                </td>
+                                <td>
+                                    <p>(1 L)</p>
+                                    <img src="assets/img/radiobtn-grey.png" alt="radiobtn-grey">
+                                </td>
+                                <td>
+                                    <p>(1 R)</p>
+                                    <img src="assets/img/radiobtn-grey.png" alt="radiobtn-grey">
+                                </td>
+                                <td>
+                                    <p>(1 R)</p>
+                                    <img src="assets/img/radiobtn-grey.png" alt="radiobtn-grey">
+                                </td>
+                                <td>
+                                    <p>(1 L)</p>
+                                    <img src="assets/img/radiobtn-grey.png" alt="radiobtn-grey">
+                                </td>
+                                <td>
+                                    <p>(1 R)</p>
+                                    <img src="assets/img/radiobtn-grey.png" alt="radiobtn-grey">
+                                </td>
+                                <td>
+                                    <p>(1 L)</p>
+                                    <img src="assets/img/radiobtn-grey.png" alt="radiobtn-grey">
+                                </td>
+                                <td>
+                                    <p>(1 L)</p>
+                                    <img src="assets/img/radiobtn-grey.png" alt="radiobtn-grey">
+                                </td>
+                                <td>
+                                    <p>(1 R)</p>
+                                    <img src="assets/img/radiobtn-grey.png" alt="radiobtn-grey">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" rowspan="2">Tee Shorts - Other</th>
+                                <td rowspan="2">2</td>
+                                <td>3 wood / 5 wood <br> e.g. distance = 230m</td>
+                                <td>
+                                    <p>(0)</p><br>
+                                    <img src="assets/img/radiobtnblack.png" alt="radiobtnblack">
+                                </td>
+                                <td>
+                                    <p>(0)</p><br>
+                                    <img src="assets/img/radiobtnblack.png" alt="radiobtnblack">
+                                </td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                            </tr>
+                            <tr>
+                                <td>Accuracy</td>
+                                <td>
+                                    <p>(1)</p><br>
+                                    <img src="assets/img/radioblack2.png" alt="radioblack2">
+                                </td>
+                                <td>
+                                    <p>(0)</p><br>
+                                    <img src="assets/img/radioblack2.png" alt="radioblack2">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" rowspan="2">Fairway Wood Shots</th>
+                                <td rowspan="2">2</td>
+                                <td>e.g. distance = 210m<br>Iron / hybrid / wood</td>
+                                <td>
+                                    <p>(0)</p><br>
+                                    <img src="assets/img/radiobtnblack.png" alt="radiobtnblack">
+                                </td>
+                                <td>
+                                    <p>(0)</p><br>
+                                    <img src="assets/img/radiobtnblack.png" alt="radiobtnblack">
+                                </td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                            </tr>
+                            <tr>
+                                <td>Accuracy</td>
+                                <td>
+                                    <p>(1)</p><br>
+                                    <img src="assets/img/radioblack2.png" alt="radioblack2">
+                                </td>
+                                <td>
+                                    <p>(0)</p><br>
+                                    <img src="assets/img/radioblack2.png" alt="radioblack2">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" rowspan="2">Long Irons</th>
+                                <td rowspan="2">3</td>
+                                <td>Target = 180m - 199m<br>3 / 4 iron to 190m<br>target</td>
+                                <td>
+                                    <div class="range-slider">
+                                        <input class="range-slider__range" type="range" value="100" min="0" max="190">
+                                        <span class="range-slider__value">900m</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="range-slider">
+                                        <input class="range-slider__range" type="range" value="100" min="0" max="900">
+                                        <span class="range-slider__value">195m</span>
+                                    </div>
+                                </td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                            </tr>
+                            <tr>
+                                <td>Accuracy</td>
+                                <td>
+                                    <p>(0)</p><br>
+                                    <img src="assets/img/radiobtn-grey.png" alt="radiobtn-grey">
+                                </td>
+                                <td>
+                                    <p>(0)</p><br>
+                                    <img src="assets/img/radiobtn-grey.png" alt="radiobtn-grey">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" rowspan="2">Mid Irons</th>
+                                <td rowspan="2">5</td>
+                                <td>Target = 160m - 179m<br>5 / 6 iron to 170m<br>target</td>
+                                <td>
+                                    <div class="range-slider">
+                                        <input class="range-slider__range" type="range" value="100" min="0" max="500">
+                                        <span class="range-slider__value">100m</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="range-slider">
+                                        <input class="range-slider__range" type="range" value="100" min="0" max="570">
+                                        <span class="range-slider__value">500m</span>
+                                    </div>
+                                </td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                            </tr>
+                            <tr>
+                                <td>Accuracy</td>
+                                <td>
+                                    <p>(0)</p><br>
+                                    <img src="assets/img/radiobtn-grey.png" alt="radiobtn-grey">
+                                </td>
+                                <td>
+                                    <p>(0)</p><br>
+                                    <img src="assets/img/radiobtn-grey.png" alt="radiobtn-grey">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" rowspan="2">Short Irons</th>
+                                <td rowspan="2">5</td>
+                                <td>Target = 140m - 159m<br>7 / 8 iron to 150m<br>target</td>
+                                <td>
+                                    <div class="range-slider">
+                                        <input class="range-slider__range" type="range" value="100" min="0" max="500">
+                                        <span class="range-slider__value">500m</span>
+                                    </div>
+                                </td>
+                                <td>
+                                     <div class="range-slider">
+                                        <input class="range-slider__range" type="range" value="100" min="0" max="500">
+                                        <span class="range-slider__value">500m</span>
+                                    </div>
+                                </td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                            </tr>
+                            <tr>
+                                <td>Accuracy</td>
+                                <td>
+                                    <p>(0)</p><br>
+                                    <img src="assets/img/radiobtn-grey.png" alt="radiobtn-grey">
+                                </td>
+                                <td>
+                                    <p>(0)</p><br>
+                                    <img src="assets/img/radiobtn-grey.png" alt="radiobtn-grey">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" rowspan="2">Close Irons</th>
+                                <td rowspan="2">3</td>
+                                <td>Target = 120m - 139m<br>9 iron / PW to 130m<br>target</td>
+                                <td>
+                                    <div class="range-slider">
+                                        <input class="range-slider__range" type="range" value="60" min="0" max="260">
+                                        <span class="range-slider__value">125m</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="range-slider">
+                                        <input class="range-slider__range" type="range" value="100" min="0" max="1000">
+                                        <span class="range-slider__value">800m</span>
+                                    </div>
+                                </td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                            </tr>
+                            <tr>
+                                <td>Accuracy</td>
+                                <td>
+                                    <p>(0)</p><br>
+                                    <img src="assets/img/radiobtn-grey.png" alt="radiobtn-grey">
+                                </td>
+                                <td>
+                                    <p>(0)</p><br>
+                                    <img src="assets/img/radiobtn-grey.png" alt="radiobtn-grey">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" rowspan="2">Full Swing Wedge</th>
+                                <td rowspan="2">1</td>
+                                <td>Target = 100m - 119m<br>e.g. GW (52°) to 110m <br>target</td>
+                                <td>
+                                    <div class="range-slider">
+                                        <input class="range-slider__range" type="range" value="30" min="0" max="800">
+                                        <span class="range-slider__value">105m</span>
+                                    </div>
+                                </td>
+                                <td>
+                                                                        <div class="range-slider">
+                                        <input class="range-slider__range" type="range" value="90" min="0" max="700">
+                                        <span class="range-slider__value">600m</span>
+                                    </div>
+                                </td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                            </tr>
+                            <tr>
+                                <td>Accuracy</td>
+                                <td>
+                                    <p>(0)</p><br>
+                                    <img src="assets/img/radiobtn-grey.png" alt="radiobtn-grey">
+                                </td>
+                                <td>
+                                    <p>(0)</p><br>
+                                    <img src="assets/img/radiobtn-grey.png" alt="radiobtn-grey">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="footer">
+                    <p>Copyright &copy; 2019 All rights reserved.</p>
+                    <p>YourGolf Performance</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/nice-select.min.js"></script>
+    <script src="assets/js/gijgo.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('select:not(.ignore)').niceSelect();
+        });
+
+    </script>
+    <script>
+        $('#datepicker').datepicker();
+
+    </script>
+    <script>
+        $(".togglarBtn").click(function() {
+            $('body').toggleClass("highlight");
+        });
+
+    </script>
+
+</body>
+
+</html>
